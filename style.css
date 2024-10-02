@@ -1,0 +1,51 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: purple;
+    
+}
+
+h1, h2{
+    font-family: "Audiowide";
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Trirong";
+    font-size: 20px;
+}
+
+
+.surfer {
+    position: relative;
+    text-align: center;
+    color: purple;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between images */
+    flex-direction: row;
+    margin: 0 20px 20px 20px;
+    font-size: 30px;
+  }
+  
+.image-container img {
+    float: left;
+    width: 200px; /* Adjust the percentage as needed */
+    height: auto;
+    border-radius: 8px;
+    
+
+}
